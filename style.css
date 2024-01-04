@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Inter:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 80vw;
+  margin-inline: auto;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  padding-inline: 1rem;
+  font-size: 1.6rem;
+  color: #212244;
+}
+
+.search-bar {
+  border: 1px solid rgba(105, 105, 123, 0.2);
+  border-radius: 1rem;
+}
+
+.search-bar > input {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-right: 1px solid rgba(105, 105, 123, 0.2);
+}
+
+.cart-icon {
+  padding-inline: 2rem;
+}
+
+.sign-in-button {
+  border: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #f94a3d;
+  border-radius: 1rem;
+}
+
+.top-header {
+  margin-top: 3rem;
+}
+
+/* hero section */
+
+.hero-section {
+  padding: 0 !important;
+}
+
+.hero-col-1 {
+  width: 45%;
+  height: 47rem;
+  flex-shrink: 0;
+}
+
+.fries-box-container {
+  width: 23rem;
+  height: 4.6rem;
+  flex-shrink: 0;
+  border-radius: 2.3rem;
+  background: #fdecec;
+  color: var(--food-delivery-orange-color, #f94a3d);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fries-box-container > p {
+  margin: 0 0 0 2rem;
+}
+
+#small-box-icon {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  border: 1px solid #fdecec;
+  background: #fff;
+}
+
+.hero-col-1 > h1 {
+  color: #212244;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 7rem;
+}
+
+.door-text {
+  color: var(--food-delivery-orange-color, #f94a3d);
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 7rem;
+}
+
+.hero-col-1 > p {
+  color: var(--food-delivery-p, #69697b);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+
+.hero-col-1 > button {
+  border: none;
+  width: 17rem;
+  height: 6rem;
+  flex-shrink: 0;
+  color: white;
+  font-size: 1.8rem;
+  background-color: #f94a3d;
+  border-radius: 1.6rem;
+}
+
+.hero-col-2 {
+  width: 55%;
+}
+
+.hero-col2 > img {
+  width: 100%;
+}
+
+/* main */
+
+.main-section {
+  margin-top: 9rem;
+  margin-bottom: 13rem;
+}
+
+.best-food {
+  width: 23%;
+}
+
+.best-food-heading {
+  color: var(--food-delivery-pg, #212244);
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 5.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.best-food-text {
+  color: var(--food-delivery-p, #69697b);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.features-cards {
+  height: 38rem;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+
+.feature-img {
+  margin-bottom: 4.5rem;
+}
+
+.text-box {
+  width: 100%;
+  height: 23rem;
+  border-radius: 2rem;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #eeeded, #fff) 1 100%;
+  background: #fff;
+  padding: 4rem 6rem 3rem 3rem;
+}
+
+#text-box-mid {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #ffcf03, #fff) 1 100%;
+  box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
+}
+
+.feature-text {
+  color: #212244;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  width: 216px;
+}
+
+.feature-3-card img {
+  height: 20.1rem;
+}
+/* <!-- special recipies --> */
+.special-recipie {
+  margin: 4rem 0 13rem 0;
+}
+
+.hr {
+  background: #eaeaea;
+  height: 2px;
+  width: 100%;
+}
+
+.special-recipie-text {
+  color: var(--Food-Delivery-PG, #212244);
+  font-size: 4.8rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.recipie-list {
+  margin-bottom: 1rem;
+}
+
+.recipie-list > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.recipie-list > ul > li {
+  color: #212244;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-inline: 1rem;
+}
+
+.first-recipie {
+  color: #f94a3d !important;
+}
+.recipie-select-menu {
+  width: 100%;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.recipie-cards {
+  position: relative;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 44rem;
+  border-radius: 24px;
+  border: 2px solid rgba(234, 234, 234, 0.5);
+  padding: 25rem 2rem 2rem 2rem;
+  margin-inline: 1.5rem;
+}
+
+.card-3 {
+  border: 2px solid rgba(255, 219, 18, 0.884);
+}
+
+.dish-img {
+  top: 2rem;
+  position: absolute;
+}
+
+.dish-img-3 {
+  top: -3.5rem;
+  position: absolute;
+}
+
+.recipie-name {
+  color: #212244;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.recipie-price {
+  color: #69697b;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.recipie-price > span {
+  color: #f94a3d;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.add-to-cart-button {
+  font-weight: 500;
+  line-height: 2rem;
+  border-radius: 1rem;
+  border: 1.5px solid #f94a3d;
+  width: 12rem;
+  height: 4rem;
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  color: #f94a3d;
+  background-color: white;
+}
+
+.add-button-3 {
+  background-color: #f94a3d;
+  color: white;
+}
+
+.circle-small {
+  display: inline-block;
+  border-radius: 20px;
+  background: #b8b7b7;
+  width: 5px;
+  height: 5px;
+}
+
+.rect-box-small {
+  width: 20px;
+  height: 5px;
+  background: #f94a3d;
+}
+
+/* customer review */
+.customer-review-box {
+  background-color: #f8f8f8;
+}
+
+.customer-review {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+.all-users {
+  gap: 1rem;
+}
+.user-img-box {
+  width: 49rem;
+  height: 11rem;
+  flex-shrink: 0;
+}
+
+.user-box-1 {
+  border-radius: 15px;
+  background: linear-gradient(90deg, #fff 0.16%, #fff 99.81%);
+}
+
+.user-img {
+  margin-left: 2rem;
+  margin-right: 3.5rem;
+}
+
+.user-name {
+  color: var(--Food-Delivery-PG, #212244);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.user-desig {
+  color: var(--Food-Text-Color-2, #69697b);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.vertical-line {
+  width: 5px;
+  height: 49rem;
+  background: #eaeaea;
+  margin-inline: 6rem;
+}
+
+.customer-heading {
+  color: var(--Food-Delivery-PG, #212244);
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 6rem;
+  letter-spacing: 0.96px;
+}
+
+.customer-heading span {
+  color: var(--Food-Delivery-Orange-Color, #f94a3d);
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 6rem;
+  letter-spacing: 0.96px;
+}
+
+.cust-name {
+  color: var(--Food-Delivery-PG, #212244);
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 4.2rem; /* 150% */
+}
+
+.cust-desi {
+  color: var(--Food-Text-Color-2, #69697b);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.red-vertical-line {
+  width: 3px;
+  height: 56px;
+  background-color: #f94a3d;
+}
+
+.customer-details {
+  margin-left: 1rem;
+}
+
+.customer-stars {
+  margin-left: auto;
+}
+
+.customer-review-text-2 {
+  color: var(--Food-Delivery-P, #69697b);
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  margin-top: 4rem;
+}
+
+.back-red {
+  position: relative;
+  margin-top: 18rem;
+}
+.phone {
+  position: absolute;
+  top: 2.5rem;
+  left: 5.8rem;
+}
+
+.red-call img {
+  width: 100%;
+}
+.download {
+  position: absolute;
+  top: 13rem;
+  left: 70rem;
+}
+.download-heading h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.7rem; /* 123.684% */
+  letter-spacing: 0.76px;
+}
+.download-dis p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.2rem; /* 177.778% */
+}
+
+.foot {
+  width: 100%;
+  margin-top: 30rem;
+}
+
+.foot1 {
+  color: #ee3e32;
+  font-size: 1.8rem;
+  margin-right: auto;
+}
+.foot1 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+.foot1-1 p {
+  font-size: 1.6rem;
+  color: #69697b;
+  margin-right: 10rem;
+  margin-top: 2rem;
+}
+.foot1-1 img {
+  height: 2rem;
+  margin-top: 1.8rem;
+  margin-right: 1rem;
+}
+.footer-menu h3 {
+  font-size: 1.8rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+.footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-menu ul li {
+  font-size: 1.6rem;
+  color: #69697b;
+  list-style-type: none;
+  text-align: left;
+  margin-left: -2rem;
+}
